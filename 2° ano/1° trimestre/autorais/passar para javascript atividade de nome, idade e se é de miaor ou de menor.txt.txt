@@ -1,0 +1,23 @@
+function inicio(){
+    let nome;
+    let ano_nascimento;
+    let idade;
+    
+    nome = prompt("Digite seu nome: ");
+    console.log("Bem vindo, " + nome + "!");
+    
+    ano_nascimento = parseInt(prompt("Digite o ano do seu nascimento: "));
+    
+    idade = 2023 - ano_nascimento;
+    
+    if(idade >= 18){
+        console.log("Parabéns, você tem mais de 18 anos!");
+    }
+    else{
+        console.log("Infelizmente você não pode entrar por ser menor de 18 anos.");
+    }
+    
+    console.log("Sua idade é: " + idade);
+}
+
+inicio();

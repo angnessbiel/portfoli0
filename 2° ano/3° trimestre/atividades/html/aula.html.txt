@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+   .title{
+        color: white;
+        font-size: 4rem;
+        font-weight: bold;
+        background-color: rgb(151, 151, 151);
+    }
+    .section1{
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: rgb(151, 151, 151);
+    }
+    .asidesection1{
+        color: rgb(255, 255, 255);
+    }
+    .section2{
+        background-color: rgb(255, 255, 255);
+    }
+    .fundocor{
+        background-color: rgb(107, 74, 33);
+    }
+    .letraitalica{
+        color: rgb(0, 0, 0);
+        background-color: rgba(228, 228, 228, 0.637);
+    }
+    .legenda{
+        font-size: small;
+        color: black;
+        background-color: rgb(255, 255, 255);
+    }
+    .rodape{
+        color: black;
+        background-color: rgba(228, 228, 228, 0.637);    
+    }
+    </style>
+    <title>Professor</title>
+</head>
+<body>
+    <header><p class="title">O peixe mais foda do mundo</p></header>
+   
+    <section class="section1">
+        <aside><p class="asidesection1">Peixe branco e laranja</p></aside>
+    </section>
+    <section class="section2">
+        <article class="fundacor">
+            <p class="letraitalica">Este é o peixe branco e laranja, mais conhecido por ser o peixe mais foda do mundo, pois ele é branco e laranja e ele pode se camuflar com a agua porque a agua é transparente e ele é branco e laranja</p>
+        </article>
+        <figure>
+            <img src="./assets/peixe.jfif"/>
+            <figcaption class="legenda">peixe foda</figcaption>
+        </figure>
+    </section>
+    <footer class="rodape">Este é o rodape da minha página</footer>
+</body>
+</html>
